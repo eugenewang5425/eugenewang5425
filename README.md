@@ -1,7 +1,8 @@
 <!--
   ================================================================
   GitHub Profile README —— @eugenewang5425
-  公开 profile，仅含适合公开展示的专业/学术内容；不含敏感信息。
+  仅使用已验证可用的图片组件（无过期/暂停的第三方服务）。
+  统计卡/项目卡如需恢复：自建 github-readme-stats 后替换 URL 即可。
   ================================================================
 -->
 
@@ -32,27 +33,19 @@
 
 > **🚩 当前主线**：GIS / 空间智能 → 计算机视觉 → 机器人感知与建图 → 机器人学习。
 
-
 **🧠 技能 / Skills**：Python · PyTorch · 深度学习（CNN/Transformer/语义分割）· 遥感影像处理 · GIS/ArcGIS · 测绘 · Git
 
 ---
 
-## 📊 GitHub 数据统计 / Stats
+## 📊 近期数据 / At a Glance
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=eugenewang5425&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eugenewang5425&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&card_width=380" alt="Top Languages" />
-</p>
+> _说明：Github 数据统计卡片原本来自第三方服务 `github-readme-stats`，该公共实例已暂停而暂时不可用；下面先展示可用的连续打卡与贡献动画。恢复方法见文末。_
 
 <p align="center">
   <img height="180em" src="https://streak-stats.demolab.com?user=eugenewang5425&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
-### 🏆 成就 / Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=eugenewang5425&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub Trophies" />
-</div>
+---
 
 ## 🛠 技术栈 / Tech Stack
 
@@ -74,14 +67,13 @@
 
 ## 🚀 精选项目 / Featured Projects
 
-<div align="center">
-<a href="https://github.com/eugenewang5425/ielts-corpus-lab">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=eugenewang5425&repo=ielts-corpus-lab&theme=tokyonight&hide_border=true" alt="ielts-corpus-lab" />
-</a>
-<a href="https://github.com/eugenewang5425/flowboard">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=eugenewang5425&repo=flowboard&theme=tokyonight&hide_border=true" alt="flowboard" />
-</a>
-</div>
+- **[ielts-corpus-lab](https://github.com/eugenewang5425/ielts-corpus-lab)** — 可审计的 IELTS 四科语料统计与话题探索工具
+- **[flowboard](https://github.com/eugenewang5425/flowboard)** — Windows 本地的多智能体工作流看板（Codex / Claude Code）
+- **[GithubResource](https://github.com/eugenewang5425/GithubResource)** — GitHub 资源整理
+
+> _想要项目卡片效果？在 GitHub 主页用「**置顶仓库 / Customize your pins**」最稳定；或自建 `github-readme-stats` 后，我可以用它渲染漂亮的项目卡。_
+
+---
 
 ## 🐍 贡献蛇形动画 / Contribution Snake
 
@@ -94,6 +86,8 @@
 </picture>
 
 </div>
+
+---
 
 ## 📫 联系我 / Get in Touch
 
@@ -131,3 +125,12 @@
 _Thanks for stopping by. Let's map the world and build the intelligent future._ ✨
 
 </div>
+
+
+<!-- ================================================================ -->
+<!-- 自建 github-readme-stats 恢复统计/项目卡的方法（不计入展示）     -->
+<!-- 1) 用你自己的 GitHub 账号 fork https://github.com/anuraghazra/github-readme-stats -->
+<!-- 2) 在 vercel.com 用 GitHub 导入该项目部署（需你自己的 Vercel 账号） -->
+<!-- 3) 部署后得到 https://<your-app>.vercel.app，把 README 里的 -->
+<!--    github-readme-stats.vercel.app 全部替换成你的地址即可。 -->
+<!-- ================================================================ -->
