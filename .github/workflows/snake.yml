@@ -2,7 +2,7 @@
 # 自动生成「贡献蛇形动画」的 GitHub Actions 工作流
 # 放到你的 profile 仓库（eugenewang5425/eugenewang5425）下：
 #   .github/workflows/snake.yml
-# 运行后会把生成的 SVG 提交到 output 分支，README 中的
+# 运行后会把生成的 SVG 提交到 output 分支根目录，README 中的
 #   raw.githubusercontent.com/eugenewang5425/eugenewang5425/output/...
 # 即可正常显示。
 # ================================================================
@@ -34,14 +34,14 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            output/github-contribution-grid-snake.svg
-            output/github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: commit and push to output branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan output
-          git add -f output/
+          git add -f github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
           git commit -m "chore: regenerate contribution snake" || echo "no changes"
           git push -f origin output
