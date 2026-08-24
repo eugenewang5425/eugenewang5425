@@ -1,53 +1,59 @@
-<!--
-  ================================================================
-  GitHub Profile README —— @eugenewang5425
-  仅使用已验证可用的图片组件（无过期/暂停的第三方服务）。
-  统计卡/项目卡如需恢复：自建 github-readme-stats 后替换 URL 即可。
-  ================================================================
--->
+<!-- ============================================================ -->
+ GitHub Profile · @eugenewang5425 · 风格：少模板味，多点人情味 
+ 统计卡/项目卡：等自建 github-readme-stats(vercel) 后切换 URL        
+ ============================================================ -->
 
 <div align="center">
 
-# 👋 Hi, I'm Eugene Wang / 你好，我是 Eugene
+# ☕ 嘿，我是 Eugene
 
-### `@eugenewang5425`
+### `@eugenewang5425` · GIS → Robotics
 
-> 🌍 **GIS · 遥感深度学习 · 向机器人/空间智能转型**
-> _Remote sensing deep learning today, embodied intelligence next._ 🚀
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f8cff,100:00d4ff&height=180&section=header&text=%F0%9F%9A%80%20Mapping%20the%20world%2C%20moving%20it&fontSize=42&fontColor=ffffff" alt="banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f8cff,100:00d4ff&height=180&section=header&text=%F0%9F%9B%B0%20Map%20the%20world%2C%20move%20it&fontSize=44&fontColor=ffffff" alt="banner" />
 
 <br />
 
-<a href="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&center=true&vCenter=true&width=780&lines=%E5%9C%B0%E7%90%86%E4%BF%A1%E6%81%AF%E7%A7%91%E5%AD%A6+GIS+%F0%9F%97%BA;%E9%81%A5%E6%84%9F%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0+%F0%9F%93%B8;%E6%9C%9D%E7%9D%80+Robotics+%C3%97+%E7%A9%BA%E9%97%B4%E6%99%BA%E8%83%BD+%F0%9F%A4%96;Let's+build+the+future%2C+one+commit+at+a+time+%E2%9C%A8">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&center=true&vCenter=true&width=760&lines=%E5%9C%B0%E7%90%86%E4%BF%A1%E6%81%AF%E7%A7%91%E5%AD%A6+GIS+%F0%9F%97%BA;%E9%81%A5%E6%84%9F%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0+%F0%9F%93%B8;%E6%9C%9D%E7%9D%80+Robotics+%C3%97+%E7%A9%BA%E9%97%B4%E6%99%BA%E8%83%BD+%F0%9F%A4%96;Let's+build+the+future%2C+one+commit+at+a+time+%E2%9C%A8" />
-</a>
+> 一个想从「看懂地图」一路走到「看懂世界、还能动」的野路子
+> _from remote sensing to embodied intelligence._
 
----
+<a href="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&center=true&vCenter=true&width=760&lines=GIS+%F0%9F%97%BA+%E2%86%92+Deep+Learning+%F0%9F%A7%A0+%E2%86%92+Robotics+%F0%9F%A4%96;%E9%81%A5%E6%84%9F%E5%88%86%E7%B1%BB%EF%BD%9C%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%EF%BD%9CSLAM%EF%BD%9C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6%E4%B9%A0;Let's+build+something+real+%F0%9F%94%A5">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&center=true&vCenter=true&width=750&lines=GIS+%F0%9F%97%BA+%E2%86%92+Deep+Learning+%F0%9F%A7%A0+%E2%86%92+Robotics+%F0%9F%A4%96;%E9%81%A5%E6%84%9F%E5%88%86%E7%B1%BB%EF%BD%9C%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%EF%BD%9CSLAM%EF%BD%9C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6%E4%B9%A0;Let's+build+something+real+%F0%9F%94%A5" />
+</a>
 
 </div>
 
-## 👤 关于我 / About Me
+---
 
-我是一名**地理信息科学（GIS）**专业出身的开发者，主要研究**高分辨率遥感影像土地覆盖分类**，正把 GIS / 空间智能当作桥梁，转向 **3D 视觉、机器人感知与建图**方向。
+## 🗺️ 我是谁
 
-> **🚩 当前主线**：GIS / 空间智能 → 计算机视觉 → 机器人感知与建图 → 机器人学习。
+地理信息科学（GIS）毕业，主要啃 **高分辨率遥感影像土地覆盖分类**。
 
-**🧠 技能 / Skills**：Python · PyTorch · 深度学习（CNN/Transformer/语义分割）· 遥感影像处理 · GIS/ArcGIS · 测绘 · Git
+目前正把 GIS / 空间智能当**桥梁**，往 **3D 视觉、机器人感知、建图**那头跑。
+
+- 🎓 GIS ・ 遥感分类 ・ 深度学习（CNN / Transformer / 语义分割）
+- 🛠 天天见的：**Python · PyTorch · ArcGIS · 遥感 · Git**
+- 🚀 在补的：3D 重建 · SLAM · 控制理论 · 嵌入式
+- 🎯 盯着的：机器人视觉 · 机器人学习 · 具身智能
+
+> 🪧 主线：`空间智能 → 计算机视觉 → 机器人感知与建图 → 机器人学习`
 
 ---
 
-## 📊 近期数据 / At a Glance
-
-> _说明：Github 数据统计卡片原本来自第三方服务 `github-readme-stats`，该公共实例已暂停而暂时不可用；下面先展示可用的连续打卡与贡献动画。恢复方法见文末。_
+## 📺 排面数据
 
 <p align="center">
   <img height="180em" src="https://streak-stats.demolab.com?user=eugenewang5425&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
+<!-- 自建 github-readme-stats 部署完成后，把下面两行(注释)解开并换成你的 vercel 地址 -->
+<!-- <p align="center">
+  <img height="180em" src="https://YOUR-APP.vercel.app/api?username=eugenewang5425&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img height="180em" src="https://YOUR-APP.vercel.app/api/top-langs/?username=eugenewang5425&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&card_width=380" alt="Top Languages" />
+</p> -->
+
 ---
 
-## 🛠 技术栈 / Tech Stack
+## 🛠 武器库
 
 <div align="center">
 
@@ -61,21 +67,19 @@
 
 </div>
 
-**正在深耕 / Leveling up**：机器人视觉 · 3D 重建 · SLAM · 控制理论 · 嵌入式
+---
+
+## 🚀 肝过的项目
+
+- **🔥 [ielts-corpus-lab](https://github.com/eugenewang5425/ielts-corpus-lab)** — 可审计的 IELTS 四科语料统计 & 话题探索
+- **🤖 [flowboard](https://github.com/eugenewang5425/flowboard)** — Windows 本地多智能体工作流看板（Codex × Claude Code）
+- **📦 [GithubResource](https://github.com/eugenewang5425/GithubResource)** — GitHub 资源整理
+
+> 想更花哨？部署完自建实例后，我也能给你上「项目卡片」✨
 
 ---
 
-## 🚀 精选项目 / Featured Projects
-
-- **[ielts-corpus-lab](https://github.com/eugenewang5425/ielts-corpus-lab)** — 可审计的 IELTS 四科语料统计与话题探索工具
-- **[flowboard](https://github.com/eugenewang5425/flowboard)** — Windows 本地的多智能体工作流看板（Codex / Claude Code）
-- **[GithubResource](https://github.com/eugenewang5425/GithubResource)** — GitHub 资源整理
-
-> _想要项目卡片效果？在 GitHub 主页用「**置顶仓库 / Customize your pins**」最稳定；或自建 `github-readme-stats` 后，我可以用它渲染漂亮的项目卡。_
-
----
-
-## 🐍 贡献蛇形动画 / Contribution Snake
+## 🐍 贡献蛇形动画
 
 <div align="center">
 
@@ -89,7 +93,7 @@
 
 ---
 
-## 📫 联系我 / Get in Touch
+## 📡 找我
 
 <div align="center">
 
@@ -108,11 +112,7 @@
 </div>
 
 <div align="center">
-
-- 📧 **Email**：`eugenewa@outlook.com`
-- 📺 **Bilibili**：[江离子](https://space.bilibili.com/454743343)
-- 📕 **小红书号**：`5872334760`
-
+- 📧 `eugenewa@outlook.com` ・ 📺 [江离子](https://space.bilibili.com/454743343) ・ 📕 小红书号 `5872334760`
 </div>
 
 <br />
@@ -121,16 +121,10 @@
 
 ---
 
-**感谢你看到这里 🙌 欢迎一起交流、一起把地理与智能结合起来。**
-_Thanks for stopping by. Let's map the world and build the intelligent future._ ✨
+🪧 用空间数据理解世界，用智能体改变世界。
+
+🏔 等我有钱了，先买台真无人机自己飞。
+
+_Thanks for stopping by. Let's build something real._ 🔥
 
 </div>
-
-
-<!-- ================================================================ -->
-<!-- 自建 github-readme-stats 恢复统计/项目卡的方法（不计入展示）     -->
-<!-- 1) 用你自己的 GitHub 账号 fork https://github.com/anuraghazra/github-readme-stats -->
-<!-- 2) 在 vercel.com 用 GitHub 导入该项目部署（需你自己的 Vercel 账号） -->
-<!-- 3) 部署后得到 https://<your-app>.vercel.app，把 README 里的 -->
-<!--    github-readme-stats.vercel.app 全部替换成你的地址即可。 -->
-<!-- ================================================================ -->
