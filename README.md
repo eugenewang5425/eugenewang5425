@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
  GitHub Profile README · @eugenewang5425
  · 中英双语 bilingual
- · 浅/深色 banner · 右浮动统计卡(自建实例后启用) · 动态徽章 · 可折叠中文
+ · 浅/深色 banner · 右浮动统计卡(自建实例已启用) · 动态徽章 · 可折叠中文
  ============================================================ -->
 
 <p align="center">
@@ -24,10 +24,10 @@
 
 ---
 
-<!-- Right-floating stats card: enabled once the self-hosted github-readme-stats is live (uncomment and set YOUR-APP). -->
+<!-- Right-floating GitHub Stats card (self-hosted github-readme-stats) -->
 <div align="right">
 
-<!--  <img height="180em" src="https://YOUR-APP.vercel.app/api?username=eugenewang5425&show_icons=true&theme=tokyonight&hide_border=true" alt="stats" />  -->
+<img height="180em" src="https://github-readme-stats-beta-livid-95.vercel.app/api?username=eugenewang5425&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
 
 </div>
 
@@ -87,7 +87,16 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 - 🤖 **[flowboard](https://github.com/eugenewang5425/flowboard)** — Windows local multi-agent workflow board (Codex × Claude Code) / Windows 本地多智能体工作流看板
 - 📦 **[GithubResource](https://github.com/eugenewang5425/GithubResource)** — GitHub resource collection / 资源整理
 
-> ⌨️ Project cards: enabled once the self-hosted stats instance is live.
+<div align="center">
+
+<a href="https://github.com/eugenewang5425/ielts-corpus-lab">
+  <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=ielts-corpus-lab&theme=tokyonight&hide_border=true" alt="ielts-corpus-lab" />
+</a>
+<a href="https://github.com/eugenewang5425/flowboard">
+  <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=flowboard&theme=tokyonight&hide_border=true" alt="flowboard" />
+</a>
+
+</div>
 
 ---
 
@@ -95,6 +104,7 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 
 <p align="center">
   <img height="180em" src="https://streak-stats.demolab.com?user=eugenewang5425&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img height="180em" src="https://github-readme-stats-beta-livid-95.vercel.app/api/top-langs/?username=eugenewang5425&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&card_width=380" alt="Top Languages" />
 </p>
 
 ---
