@@ -1,11 +1,7 @@
 <!-- ============================================================ -->
- GitHub Profile · @eugenewang5425
- 风格借鉴 AprilNEA / TianxingChen (陈天行)：
- · 浅/深色 banner · #gh-light-mode-only / dark
- · 右浮动统计卡 + 左侧文本（等自建实例）
- · 动态 stars/followers/visits 徽章
- · <details> 可折叠中文自我介绍
- · GitHub Pages 外链个人站：本次不动，后续单独立项
+ GitHub Profile README · @eugenewang5425
+ · 中英双语 bilingual
+ · 浅/深色 banner · 右浮动统计卡(自建实例后启用) · 动态徽章 · 可折叠中文
  ============================================================ -->
 
 <p align="center">
@@ -20,45 +16,54 @@
 
 <br />
 
-<!-- 动态社交证明徽章：Stars / Followers / Visits -->
 <p align="center">
-  <img src="https://img.shields.io/github/stars/eugenewang5425?style=for-the-badge&logo=github&label=stars&color=181717" alt="stars" />
+  <img src="https://img.shields.io/github/stars/eugenewang5425?style=for-the-badge&logo=github&label=github+stars&color=181717" alt="github stars" />
   <img src="https://img.shields.io/github/followers/eugenewang5425?style=for-the-badge&logo=github&label=followers&color=4f8cff" alt="followers" />
-  <img src="https://komarev.com/ghpvc/?username=eugenewang5425&style=for-the-badge&color=00d4ff&label=visits" alt="visits" />
+  <img src="https://komarev.com/ghpvc/?username=eugenewang5425&style=for-the-badge&color=00d4ff&label=profile+visits" alt="visits" />
 </p>
 
 ---
 
-<!-- 右浮动的统计卡：等自建 github-readme-stats 后，把下面这行解开、URL 换成你的 vercel 地址 -->
+<!-- Right-floating stats card: enabled once the self-hosted github-readme-stats is live (uncomment and set YOUR-APP). -->
 <div align="right">
 
 <!--  <img height="180em" src="https://YOUR-APP.vercel.app/api?username=eugenewang5425&show_icons=true&theme=tokyonight&hide_border=true" alt="stats" />  -->
 
 </div>
 
-# ☕ 嘿，我是 Eugene
+# 👋 Hi, I'm Eugene Wang / 你好，我是 Eugene
 
 ### `@eugenewang5425` · **GIS → Robotics**
 
-> 一个想从「看懂地图」一路走到「看懂世界、还能动」的野路子
-> _remote sensing deep learning → embodied intelligence._
+> 🌍 **Mapping the world, then teaching machines to move in it.**
+> 从「看懂地图」走向「看懂世界、还能动」。GIS & remote-sensing deep learning, now building toward **embodied intelligence**.
 
 <details>
-<summary>🇨🇳 中文自我介绍 / Click to expand</summary>
+<summary>🇨🇳 中文自我介绍 · About me (CN)</summary>
 
 - 🎓 **GIS 出身**：主攻高分辨率遥感影像土地覆盖分类
 - 🧠 **深度学习**：CNN / Transformer / 语义分割 / 注意力
-- 🛠 **天天见**：Python · PyTorch · ArcGIS · 遥感 · Git
-- 🚀 **在补**：3D 视觉 · SLAM · 控制理论 · 嵌入式
-- 🎯 **盯着**：机器人视觉 · 机器人学习 · 具身智能
+- 🛠 **天天用**：Python · PyTorch · ArcGIS · 遥感 · Git
+- 🚀 **正在补**：3D 视觉 · SLAM · 控制理论 · 嵌入式
+- 🎯 **紧盯**：机器人视觉 · 机器人学习 · 具身智能
 
 > 🪧 主线：`空间智能 → 计算机视觉 → 机器人感知与建图 → 机器人学习`
 
 </details>
 
+**Summary (EN)**
+
+I'm a GIS graduate working on **high-resolution remote-sensing land-cover classification**. I'm using my spatial-computation background as a bridge to move into **robotics — 3D vision, robot perception, and SLAM**.
+
+Current line: `spatial intelligence → computer vision → robot perception & mapping → robot learning`
+
+- 🔬 **Research**: remote-sensing deep learning, land-cover classification
+- 💻 **Stack**: Python · PyTorch · CNN/Transformer · ArcGIS · Git
+- 🎯 **Direction**: 3D vision · SLAM · robot perception · embodied AI
+
 ---
 
-## 🛠 武器库 / Tech Stack
+## 🛠 Tech Stack / 技术栈
 
 <div align="center">
 
@@ -72,19 +77,21 @@
 
 </div>
 
----
-
-## 🚀 肝过的项目 / Featured
-
-- 🔥 **[ielts-corpus-lab](https://github.com/eugenewang5425/ielts-corpus-lab)** — 可审计的 IELTS 四科语料统计 & 话题探索
-- 🤖 **[flowboard](https://github.com/eugenewang5425/flowboard)** — Windows 本地多智能体工作流看板（Codex × Claude Code）
-- 📦 **[GithubResource](https://github.com/eugenewang5425/GithubResource)** — GitHub 资源整理
-
-> 自建 `github-readme-stats` 后，我也能给你上大佬那种「卡片墙」。
+**Learning / 在学**：3D Vision · SLAM · Control Theory · Embedded
 
 ---
 
-## 📺 排面数据 / At a Glance
+## 🚀 Projects / 项目
+
+- 🔥 **[ielts-corpus-lab](https://github.com/eugenewang5425/ielts-corpus-lab)** — Auditable IELTS four-skill corpus stats & topic explorer / 可审计的 IELTS 四科语料统计与话题探索
+- 🤖 **[flowboard](https://github.com/eugenewang5425/flowboard)** — Windows local multi-agent workflow board (Codex × Claude Code) / Windows 本地多智能体工作流看板
+- 📦 **[GithubResource](https://github.com/eugenewang5425/GithubResource)** — GitHub resource collection / 资源整理
+
+> ⌨️ Project cards: enabled once the self-hosted stats instance is live.
+
+---
+
+## 📈 At a Glance / 排面数据
 
 <p align="center">
   <img height="180em" src="https://streak-stats.demolab.com?user=eugenewang5425&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
@@ -92,7 +99,7 @@
 
 ---
 
-## 🐍 贡献蛇形 / Snake
+## 🐍 Contribution Snake / 贡献蛇形
 
 <div align="center">
 
@@ -106,7 +113,7 @@
 
 ---
 
-## 📡 找我 / Get in Touch
+## 📡 Contact / 联系
 
 <div align="center">
 
@@ -123,7 +130,7 @@
 </a>
 
 <a href="https://www.xiaohongshu.com/user/profile/64fee0620000000006033a0c">
-  <img src="https://img.shields.io/badge/-XiaoHongShu-ff2442?style=for-the-badge&logoColor=white" alt="XiaoHongShu (小红书号 5872334760)" />
+  <img src="https://img.shields.io/badge/-XiaoHongShu-ff2442?style=for-the-badge&logoColor=white" alt="XiaoHongShu (5872334760)" />
 </a>
 
 </div>
@@ -140,9 +147,7 @@
 
 ---
 
-🪧 用空间数据理解世界，用智能体改变世界。
-
-🏔 等我有钱了，先买台真无人机自己飞。
+> 🪧 **Map the world, then teach it to move.** · 用空间数据理解世界，用智能体改变世界。
 
 _Thanks for stopping by. Let's build something real._ 🔥
 
