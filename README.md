@@ -95,7 +95,7 @@ Current line: `spatial intelligence → computer vision → robot perception & m
   <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=ielts-corpus-lab&theme=tokyonight&hide_border=true" alt="ielts-corpus-lab" />
 </a>
 <a href="https://github.com/eugenewang5425/flowboard">
-  <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=flowboard&theme=tokyonight&hide_border=true" alt="flowboard" />
+  <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=flowboard&theme=tokyonight&hide_border=true&v=2" alt="flowboard" />
 </a>
 
 </div>
