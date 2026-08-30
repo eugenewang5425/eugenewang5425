@@ -15,9 +15,6 @@ on:
     # 等 GitHub 服务器跨日后再生成，避免周日的贡献格整体错开一周。
     - cron: "17 0 * * *"
   workflow_dispatch: {}
-  push:
-    branches:
-      - main
 
 jobs:
   generate:
@@ -34,6 +31,7 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.SNAKE_GITHUB_TOKEN || github.token }}
           outputs: |
             github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg?palette=github-dark
