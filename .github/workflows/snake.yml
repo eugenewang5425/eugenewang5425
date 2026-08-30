@@ -11,8 +11,9 @@ name: generate github-contribution-grid-snake
 
 on:
   schedule:
-    # 每天 UTC 18:00 运行一次（北京时间约次日 02:00）
-    - cron: "0 18 * * *"
+    # 每天 UTC 00:17 运行一次（北京时间约 08:17）。
+    # 等 GitHub 服务器跨日后再生成，避免周日的贡献格整体错开一周。
+    - cron: "17 0 * * *"
   workflow_dispatch: {}
   push:
     branches:
