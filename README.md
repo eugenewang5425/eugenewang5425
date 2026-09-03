@@ -43,11 +43,11 @@
 <details>
 <summary>🇨🇳 中文自我介绍 · About me (CN)</summary>
 
-- 🎓 **GIS 出身**：主攻高分辨率遥感影像土地覆盖分类
-- 🧠 **深度学习**：CNN / Transformer / 语义分割 / 注意力
-- 🛠 **天天用**：Python · PyTorch · ArcGIS · 遥感 · Git
-- 🚀 **正在补**：3D 视觉 · SLAM · 控制理论 · 嵌入式
-- 🎯 **紧盯**：机器人视觉 · 机器人学习 · 具身智能
+- 🎓 **GIS 出身**：高分辨率遥感影像土地覆盖分类（MSSACT-Net）+ 空间分析
+- 🧠 **AI 主线**：CNN / Transformer / 语义分割 → 机器人感知与具身智能
+- 🛠 **天天用**：Python · PyTorch · Hadoop/MapReduce · FastAPI · Git
+- 🚀 **已跑通**：MuJoCo 控制与感知实验线（PD → LQR → 摆起 → 平面臂 → IK → 里程计 → 路标融合）· 单目深度计量标定与点云导出
+- 🎯 **下一步**：ROS 2 (Jazzy) + Gazebo · SLAM/建图 · 模仿学习（ACT）
 
 > 🪧 主线：`空间智能 → 计算机视觉 → 机器人感知与建图 → 机器人学习`
 
@@ -55,12 +55,12 @@
 
 **Summary (EN)**
 
-I'm a GIS graduate working on **high-resolution remote-sensing land-cover classification**. I'm using my spatial-computation background as a bridge to move into **robotics — 3D vision, robot perception, and SLAM**.
+I'm a GIS graduate building an **embodied-intelligence bridge** from spatial computing: remote-sensing deep learning → 3D depth & robot perception → control, mapping, robot learning. Every step lives as a runnable, verifiable loop in the projects below — from MuJoCo control experiments (PD → LQR → swing-up → planar arm → IK → odometry → landmark fusion) and metric monocular-depth calibration with point-cloud export, to a distributed Hadoop/MapReduce mobility platform over ~43M NYC taxi trips with 3D visualization and weather-aware demand forecasting.
 
 Current line: `spatial intelligence → computer vision → robot perception & mapping → robot learning`
 
 - 🔬 **Research**: remote-sensing deep learning, land-cover classification
-- 💻 **Stack**: Python · PyTorch · CNN/Transformer · ArcGIS · Git
+- 💻 **Stack**: Python · PyTorch · Hadoop/MapReduce · FastAPI · MuJoCo · Git
 - 🎯 **Direction**: 3D vision · SLAM · robot perception · embodied AI
 
 ---
@@ -72,6 +72,9 @@ Current line: `spatial intelligence → computer vision → robot perception & m
   <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/-Hadoop%20%2F%20MapReduce-66CCFF?style=for-the-badge&logoColor=white" alt="Hadoop / MapReduce" />
+  <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/-MuJoCo-8A2BE2?style=for-the-badge&logoColor=white" alt="MuJoCo" />
   <img src="https://img.shields.io/badge/-ArcGIS-3B7F5B?style=for-the-badge&logoColor=white" alt="ArcGIS" />
   <img src="https://img.shields.io/badge/-Remote%20Sensing-2f8f8f?style=for-the-badge&logoColor=white" alt="Remote Sensing" />
   <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
@@ -79,23 +82,35 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 
 </div>
 
-**Learning / 在学**：3D Vision · SLAM · Control Theory · Embedded
+**Learning / 在学**：ROS 2 · Gazebo · SLAM · Imitation Learning
 
 ---
 
 ## 🚀 Projects / 项目
 
-- 🔥 **[ielts-corpus-lab](https://github.com/eugenewang5425/ielts-corpus-lab)** — Auditable IELTS four-skill corpus stats & topic explorer / 可审计的 IELTS 四科语料统计与话题探索
-- 🤖 **[flowboard](https://github.com/eugenewang5425/flowboard)** — Windows local multi-agent workflow board (Codex × Claude Code) / Windows 本地多智能体工作流看板
-- 📦 **[GithubResource](https://github.com/eugenewang5425/GithubResource)** — GitHub resource collection / 资源整理
+- 🧠 **[embodied-ai-lab](https://github.com/eugenewang5425/embodied-ai-lab)** — 具身智能学习与本地仿真：MuJoCo 控制/感知实验线 + monocular-depth 单目深度计量实验室 / Embodied-AI learning lab: MuJoCo control & perception experiments + metric monocular depth, point cloud
+- 🚕 **[geoflow](https://github.com/eugenewang5425/geoflow)** — Hadoop 分布式城市出行时空分析：HDFS/YARN/MapReduce Streaming + 3D 可视化 + 天气感知需求预测 / Distributed urban mobility analytics: Hadoop MapReduce + 3D viz + weather-aware forecasting
+- 🤖 **[flowboard](https://github.com/eugenewang5425/flowboard)** — Windows 本地多智能体工作流看板（Codex × Claude Code）/ Windows-first local multi-agent workflow board
+- 🎓 **[ielts-corpus-lab](https://github.com/eugenewang5425/ielts-corpus-lab)** — 可审计的 IELTS 四科语料统计与话题探索 / Auditable IELTS corpus stats & topic explorer
+
+**开源参与 / Contributing**: [clawd-on-desk](https://github.com/eugenewang5425/clawd-on-desk)（fork · 桌面像素宠物，实时响应 AI 编码代理 — 负责可靠性审计 / reliability audit）
 
 <div align="center">
 
-<a href="https://github.com/eugenewang5425/ielts-corpus-lab">
-  <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=ielts-corpus-lab&theme=tokyonight&hide_border=true" alt="ielts-corpus-lab" />
+<a href="https://github.com/eugenewang5425/embodied-ai-lab">
+  <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=embodied-ai-lab&theme=tokyonight&hide_border=true&v=3" alt="embodied-ai-lab" />
 </a>
+<a href="https://github.com/eugenewang5425/geoflow">
+  <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=geoflow&theme=tokyonight&hide_border=true&v=3" alt="geoflow" />
+</a>
+
+<br />
+
 <a href="https://github.com/eugenewang5425/flowboard">
-  <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=flowboard&theme=tokyonight&hide_border=true&v=2" alt="flowboard" />
+  <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=flowboard&theme=tokyonight&hide_border=true&v=3" alt="flowboard" />
+</a>
+<a href="https://github.com/eugenewang5425/ielts-corpus-lab">
+  <img align="center" src="https://github-readme-stats-beta-livid-95.vercel.app/api/pin/?username=eugenewang5425&repo=ielts-corpus-lab&theme=tokyonight&hide_border=true&v=3" alt="ielts-corpus-lab" />
 </a>
 
 </div>
