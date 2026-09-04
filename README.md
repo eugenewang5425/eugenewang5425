@@ -19,6 +19,12 @@
 <br />
 
 <p align="center">
+  <img width="100%" alt="Retro CRT Terminal banner (animated)" src="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/main/banner.gif" />
+</p>
+
+<br />
+
+<p align="center">
   <img src="https://img.shields.io/github/stars/eugenewang5425?style=for-the-badge&logo=github&label=github+stars&color=181717" alt="github stars" />
   <img src="https://img.shields.io/github/followers/eugenewang5425?style=for-the-badge&logo=github&label=followers&color=4f8cff" alt="followers" />
   <img src="https://komarev.com/ghpvc/?username=eugenewang5425&style=for-the-badge&color=00d4ff&label=profile+visits" alt="visits" />
