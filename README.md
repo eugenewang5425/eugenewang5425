@@ -19,7 +19,10 @@
 <br />
 
 <p align="center">
-  <img width="100%" alt="Retro CRT Terminal banner (animated)" src="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/main/banner.gif" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/main/banner_dark.gif" />
+    <img width="100%" alt="Retro CRT Terminal banner (animated)" src="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/main/banner_light.gif" />
+  </picture>
 </p>
 
 <br />
