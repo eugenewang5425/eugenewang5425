@@ -78,6 +78,8 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 <p>
   <strong>Languages / 编程语言</strong><br />
   <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/-MATLAB-e16737?style=for-the-badge&logoColor=white" alt="MATLAB" />
   <img src="https://img.shields.io/badge/-Java%20%28Android%29-4A8C8C?style=for-the-badge&logo=android&logoColor=white" alt="Java (Android)" />
