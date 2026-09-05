@@ -81,6 +81,7 @@ Current line: `spatial intelligence → computer vision → robot perception & m
   <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
   <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/-MATLAB-e16737?style=for-the-badge&logoColor=white" alt="MATLAB" />
   <img src="https://img.shields.io/badge/-Java%20%28Android%29-4A8C8C?style=for-the-badge&logo=android&logoColor=white" alt="Java (Android)" />
@@ -89,6 +90,7 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 <p>
   <strong>GIS & Remote Sensing / GIS 与遥感</strong><br />
   <img src="https://img.shields.io/badge/-ArcGIS-3B7F5B?style=for-the-badge&logoColor=white" alt="ArcGIS" />
+  <img src="https://img.shields.io/badge/-ArcGIS%20Pro-2E7D5B?style=for-the-badge&logoColor=white" alt="ArcGIS Pro" />
   <img src="https://img.shields.io/badge/-ArcPy-2E7D5B?style=for-the-badge&logoColor=white" alt="ArcPy" />
   <img src="https://img.shields.io/badge/-ENVI-1F6F4A?style=for-the-badge&logoColor=white" alt="ENVI" />
   <img src="https://img.shields.io/badge/-SuperMap-2D6E8F?style=for-the-badge&logoColor=white" alt="SuperMap" />
@@ -108,6 +110,7 @@ Current line: `spatial intelligence → computer vision → robot perception & m
   <img src="https://img.shields.io/badge/-Hadoop%20%2F%20MapReduce-66CCFF?style=for-the-badge&logoColor=white" alt="Hadoop / MapReduce" />
   <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/-SPSS-0F62FE?style=for-the-badge&logoColor=white" alt="SPSS" />
   <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
