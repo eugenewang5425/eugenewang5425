@@ -80,6 +80,7 @@ Current line: `spatial intelligence → computer vision → robot perception & m
   <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/-C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logoColor=white" alt="SQL" />
   <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/-MATLAB-e16737?style=for-the-badge&logoColor=white" alt="MATLAB" />
   <img src="https://img.shields.io/badge/-Java%20%28Android%29-4A8C8C?style=for-the-badge&logo=android&logoColor=white" alt="Java (Android)" />
@@ -105,12 +106,16 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 <p>
   <strong>Data & Engineering / 数据与工程</strong><br />
   <img src="https://img.shields.io/badge/-Hadoop%20%2F%20MapReduce-66CCFF?style=for-the-badge&logoColor=white" alt="Hadoop / MapReduce" />
+  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
   <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
 </div>
+
+**🎓 Core Coursework / 主修课程**：GIS 原理与实践 · GIS 开发（ArcGIS Engine / C#）· 地理信息服务 WebGIS（ArcGIS Server / SuperMap）· 移动 GIS 开发（Android / 高德 / SQLite）· 林业 WebGIS 实习 · 遥感地学分析（ENVI）· 遥感数字图像处理（MATLAB）· GNSS 测量与平差 · 大数据与云计算（Hadoop）
 
 **Learning / 在学**：ROS 2 · Gazebo · SLAM · Imitation Learning
 
