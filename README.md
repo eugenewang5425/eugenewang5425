@@ -7,23 +7,33 @@
 -->
 
 <p align="center">
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f23,100:00d4ff&height=180&section=header&text=Mapping%20the%20world%2C%20moving%20it&fontSize=42&fontColor=ffffff" />
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:4f8cff,100:00d4ff&height=180&section=header&text=Mapping%20the%20world%2C%20moving%20it&fontSize=42&fontColor=ffffff" />
-    <img alt="banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:4f8cff,100:00d4ff&height=180&section=header&text=Mapping%20the%20world%2C%20moving%20it&fontSize=42&fontColor=ffffff" />
-  </picture>
-
-</p>
-
-<br />
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/main/banner_dark.gif" />
     <img width="100%" alt="Retro CRT Terminal banner (animated)" src="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/main/banner_light.gif" />
   </picture>
 </p>
+
+<!--
+  Terminal block: continues the banner's fetch.sh into copyable, searchable text
+  (numbers mirror embodied-ai-lab / geoflow READMEs — keep them in sync).
+-->
+
+```text
+eugenewang5425@mbp ~ % ./fetch.sh --verbose
+  name      Eugene Wang
+  from      GIS & remote sensing → embodied intelligence
+  line      spatial intelligence → computer vision
+            → robot perception & mapping → robot learning
+
+eugenewang5425@mbp ~ % ls ~/build-in-public
+  embodied-ai-lab    21 lessons · 443 tests passing · MuJoCo + ROS 2
+  geoflow            43M taxi trips · Hadoop/MapReduce · 3D viz + forecasting
+  flowboard          Windows-first local multi-agent workflow board
+  ielts-corpus-lab   auditable IELTS corpus stats & topic explorer
+
+eugenewang5425@mbp ~ % echo $NEXT
+  ROS 2 (Jazzy) + Gazebo · SLAM / mapping · imitation learning (ACT)▍
+```
 
 <br />
 
