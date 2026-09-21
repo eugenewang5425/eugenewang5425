@@ -58,7 +58,7 @@
 - 🛠 **天天用**：Python · PyTorch · Hadoop/MapReduce · FastAPI · Git
 - 🚀 **已跑通**：MuJoCo 控制线（PD → LQR → 摆起 → 2R 臂 → 里程计 → 路标融合）· 三维感知线（单目深度计量标定 → 内参标定 → 点云 ICP → MobileSAM 接地）· 学习/RL 线（BC → PPO → PBRS → DAPG → SAC → DAgger → 多峰块策略）· SLAM 与导航线（占据栅格 + A* + 纯追踪 → 位姿图优化 → 回环闭合 → 鲁棒后端），51 课 / 867 项测试全绿
 - 🦖 **硬件线**：MicroDinosaur 双足恐龙机器人 —— Blender CAD v07（19× S288 驱动 · 672 项实体质量台账）+ MuJoCo/PPO 训练与头部 IMU 姿态补偿，处于「设计与仿真 → 实物搭建」过渡
-- 🎯 **下一步**：Gazebo 世界 · Nav2 / AMCL 生产对照 · MicroDinosaur 装配与实机验证
+- 🎯 **下一步**：Gazebo 世界 · MicroDinosaur 装配与实机验证 · 计划项：ROS 2 Nav2 + AMCL 基线对照（手写导航栈 vs 生产栈，见 lab `docs/53`）
 
 > 🪧 主线：`空间智能 → 计算机视觉 → 机器人感知与建图 → 机器人学习`
 
@@ -128,7 +128,7 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 
 **🎓 Core Coursework / 主修课程**：GIS 原理与实践 · GIS 开发（ArcGIS Engine / C#）· 地理信息服务 WebGIS（ArcGIS Server / SuperMap）· 移动 GIS 开发（Android / 高德 / SQLite）· 林业 WebGIS 实习 · 遥感地学分析（ENVI）· 遥感数字图像处理（MATLAB）· GNSS 测量与平差 · 大数据与云计算（Hadoop）
 
-**Learning / 在学**：Nav2 / AMCL 生产对照 · 机器人实机装配与调试 · VLA / 世界模型
+**Learning / 在学**：机器人实机装配与调试 · SLAM 鲁棒后端与回环（进行中）· VLA / 世界模型
 
 ---
 
