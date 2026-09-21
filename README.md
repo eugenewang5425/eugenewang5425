@@ -3,7 +3,7 @@
   GitHub Profile README · @eugenewang5425
   · 中英双语 bilingual
   · 浅/深色 banner · proof 徽章(含访客计数) · 分组技术栈
-  · 右浮动统计卡(自建实例已启用) · 动态徽章 · 可折叠中文
+  · 右浮动统计卡(自建实例已启用, hide_rank 关闭字母等级) · 动态徽章 · 可折叠中文
   · 数字口径与 embodied-ai-lab README 保持一致(51 课 / 867 项测试)
   ============================================================
 -->
@@ -36,10 +36,13 @@
 
 ---
 
-<!-- Right-floating GitHub Stats card (self-hosted github-readme-stats) -->
+<!-- Right-floating GitHub Stats card (self-hosted github-readme-stats).
+     hide_rank=true hides the S–C letter grade on purpose: it is an
+     audience-size percentile (stars/followers weighted), not a quality
+     score — do not re-enable it. -->
 <div align="right">
 
-<img height="180em" src="https://github-readme-stats-beta-livid-95.vercel.app/api?username=eugenewang5425&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+<img height="180em" src="https://github-readme-stats-beta-livid-95.vercel.app/api?username=eugenewang5425&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=true" alt="GitHub Stats" />
 
 </div>
 
