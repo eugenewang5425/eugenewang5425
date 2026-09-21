@@ -4,6 +4,7 @@
   · 中英双语 bilingual
   · 浅/深色 banner · proof 徽章(含访客计数) · 分组技术栈
   · 右浮动统计卡(自建实例已启用) · 动态徽章 · 可折叠中文
+  · 数字口径与 embodied-ai-lab README 保持一致(51 课 / 867 项测试)
   ============================================================
 -->
 
@@ -27,6 +28,9 @@
   <img src="https://img.shields.io/badge/lessons-51%20complete-4f8cff?style=for-the-badge" alt="51 lessons complete" />
   <a href="https://github.com/eugenewang5425/clawd-on-desk">
     <img src="https://img.shields.io/badge/clawd--on--desk-reliability%20audit-8A2BE2?style=for-the-badge" alt="clawd-on-desk reliability audit" />
+  </a>
+  <a href="https://github.com/eugenewang5425/MicroDinosaur">
+    <img src="https://img.shields.io/badge/MicroDinosaur-CAD%20%2B%20MuJoCo%2FPPO-6E4A2E?style=for-the-badge" alt="MicroDinosaur: bipedal robot build (CAD + MuJoCo/PPO)" />
   </a>
 </p>
 
@@ -53,7 +57,8 @@
 - 🧠 **AI 主线**：CNN / Transformer / 语义分割 → 机器人感知与具身智能
 - 🛠 **天天用**：Python · PyTorch · Hadoop/MapReduce · FastAPI · Git
 - 🚀 **已跑通**：MuJoCo 控制线（PD → LQR → 摆起 → 2R 臂 → 里程计 → 路标融合）· 三维感知线（单目深度计量标定 → 内参标定 → 点云 ICP → MobileSAM 接地）· 学习/RL 线（BC → PPO → PBRS → DAPG → SAC → DAgger → 多峰块策略）· SLAM 与导航线（占据栅格 + A* + 纯追踪 → 位姿图优化 → 回环闭合 → 鲁棒后端），51 课 / 867 项测试全绿
-- 🎯 **下一步**：Gazebo 世界 · Nav2 / AMCL 生产对照 · 真实机器人
+- 🦖 **硬件线**：MicroDinosaur 双足恐龙机器人 —— Blender CAD v07（19× S288 驱动 · 672 项实体质量台账）+ MuJoCo/PPO 训练与头部 IMU 姿态补偿，处于「设计与仿真 → 实物搭建」过渡
+- 🎯 **下一步**：Gazebo 世界 · Nav2 / AMCL 生产对照 · MicroDinosaur 装配与实机验证
 
 > 🪧 主线：`空间智能 → 计算机视觉 → 机器人感知与建图 → 机器人学习`
 
@@ -61,7 +66,7 @@
 
 **Summary (EN)**
 
-I'm a GIS graduate building an **embodied-intelligence bridge** from spatial computing: remote-sensing deep learning → 3D depth & robot perception → control, mapping, robot learning. Every step lives as a runnable, verifiable loop in the projects below — **51 lessons / 867 automated tests**, each one an honest experiment report (failures included): from MuJoCo control (PD → LQR → swing-up → planar arm → IK → odometry → landmark fusion) and metric monocular-depth calibration with point-cloud ICP, to a navigation stack in progress (occupancy grid + A* + pure pursuit → pose-graph optimization → loop closure → robust back-end), plus a distributed Hadoop/MapReduce mobility platform over ~43M NYC taxi trips with 3D visualization and weather-aware demand forecasting.
+I'm a GIS graduate building an **embodied-intelligence bridge** from spatial computing: remote-sensing deep learning → 3D depth & robot perception → control, mapping, robot learning. Every step lives as a runnable, verifiable loop in the projects below — **51 lessons / 867 automated tests**, each one an honest experiment report (failures included): from MuJoCo control (PD → LQR → swing-up → planar arm → IK → odometry → landmark fusion) and metric monocular-depth calibration with point-cloud ICP, to a navigation stack in progress (occupancy grid + A* + pure pursuit → pose-graph optimization → loop closure → robust back-end), plus a distributed Hadoop/MapReduce mobility platform over ~43M NYC taxi trips with 3D visualization and weather-aware demand forecasting — and now a physical build: **MicroDinosaur**, a small bipedal robot with Blender CAD, MuJoCo/PPO training and IMU head control.
 
 Current line: `spatial intelligence → computer vision → robot perception & mapping → robot learning`
 
@@ -103,6 +108,9 @@ Current line: `spatial intelligence → computer vision → robot perception & m
   <img src="https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
   <img src="https://img.shields.io/badge/-MuJoCo-8A2BE2?style=for-the-badge&logoColor=white" alt="MuJoCo" />
   <img src="https://img.shields.io/badge/-Gymnasium-1F6FEB?style=for-the-badge&logoColor=white" alt="Gymnasium" />
+  <img src="https://img.shields.io/badge/-ROS%202%20Jazzy-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS 2 Jazzy" />
+  <img src="https://img.shields.io/badge/-Gazebo-FF6A00?style=for-the-badge&logoColor=white" alt="Gazebo" />
+  <img src="https://img.shields.io/badge/-Blender%20CAD-E87D0D?style=for-the-badge&logo=blender&logoColor=white" alt="Blender CAD" />
 </p>
 
 <p>
@@ -120,13 +128,14 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 
 **🎓 Core Coursework / 主修课程**：GIS 原理与实践 · GIS 开发（ArcGIS Engine / C#）· 地理信息服务 WebGIS（ArcGIS Server / SuperMap）· 移动 GIS 开发（Android / 高德 / SQLite）· 林业 WebGIS 实习 · 遥感地学分析（ENVI）· 遥感数字图像处理（MATLAB）· GNSS 测量与平差 · 大数据与云计算（Hadoop）
 
-**Learning / 在学**：ROS 2 (Jazzy) · Gazebo Harmonic · SLAM / 导航栈 · Imitation Learning
+**Learning / 在学**：Nav2 / AMCL 生产对照 · 机器人实机装配与调试 · VLA / 世界模型
 
 ---
 
 ## 🚀 Projects / 项目
 
 - 🧠 **[embodied-ai-lab](https://github.com/eugenewang5425/embodied-ai-lab)** — 具身智能学习与本地仿真：51 课 / 867 项测试，MuJoCo 控制 → 三维感知 → 学习策略 → SLAM 与导航栈 / Embodied-AI learning lab: MuJoCo control & perception, metric monocular depth, pose-graph SLAM
+- 🦖 **[MicroDinosaur](https://github.com/eugenewang5425/MicroDinosaur)** — 小型双足恐龙机器人：Blender CAD v07（19× S288 驱动 · 672 项质量台账）+ MuJoCo/PPO 训练与头部 IMU 姿态补偿，设计与仿真 → 实物搭建过渡阶段 / Small bipedal robot: CAD + MuJoCo/PPO training + IMU head control
 - 🛰️ **[mssact-loveda](https://github.com/eugenewang5425/mssact-loveda)** — 高分辨率遥感土地覆盖语义分割：MSSACT-Net 与 5 个基线对照、模块消融、LoveDA 基准 + GF-1 全图滑窗制图管线（高斯融合 + 行政区裁剪）/ Remote-sensing land-cover segmentation: LoveDA benchmark + GF-1 sliding-window mapping
 - 🚕 **[geoflow](https://github.com/eugenewang5425/geoflow)** — Hadoop 分布式城市出行时空分析：HDFS/YARN/MapReduce Streaming + 3D 可视化 + 天气感知需求预测 / Distributed urban mobility analytics: Hadoop MapReduce + 3D viz + weather-aware forecasting
 - 🎨 **[web-design-principles](https://github.com/eugenewang5425/web-design-principles)** — 网页设计原则汇总 + 真实 bug 案例库（可按症状/原则/环境[在线检索](https://eugenewang5425.github.io/web-design-principles/)）/ Curated web design principles with a searchable case bank
