@@ -4,7 +4,7 @@
   · 中英双语 bilingual
   · 浅/深色 banner · proof 徽章(含访客计数) · 分组技术栈
   · 右浮动统计卡(自建实例已启用) · 动态徽章 · 可折叠中文
-  · 数字口径与 embodied-ai-lab README 保持一致(56 课 / 905 项测试)
+  · 项目进展与 embodied-ai-lab 实验记录保持一致；主页不展示测试数量
   ============================================================
 -->
 
@@ -15,17 +15,15 @@
   </picture>
 </p>
 
-<!--
-  Proof badges — numbers mirror the embodied-ai-lab README
-  (905 tests / 56 lessons); keep them in sync on each milestone.
--->
+<!-- Project badges describe areas of work; experiment results live in the lab reports. -->
 
 <br />
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=eugenewang5425&style=for-the-badge&color=00d4ff&label=profile+visits" alt="visits" />
-  <img src="https://img.shields.io/badge/tests-905%20passing-2ea44f?style=for-the-badge" alt="905 tests passing" />
-  <img src="https://img.shields.io/badge/lessons-56%20complete-4f8cff?style=for-the-badge" alt="56 lessons complete" />
+  <a href="https://github.com/eugenewang5425/embodied-ai-lab">
+    <img src="https://img.shields.io/badge/robotics-navigation%20%2B%20grasping-4f8cff?style=for-the-badge" alt="Robotics: navigation and grasping experiments" />
+  </a>
   <a href="https://github.com/eugenewang5425/clawd-on-desk">
     <img src="https://img.shields.io/badge/clawd--on--desk-reliability%20audit-8A2BE2?style=for-the-badge" alt="clawd-on-desk reliability audit" />
   </a>
@@ -58,9 +56,11 @@
 - 🎓 **GIS 出身**：高分辨率遥感影像土地覆盖分类（MSSACT-Net）+ 空间分析
 - 🧠 **AI 主线**：CNN / Transformer / 语义分割 → 机器人感知与具身智能
 - 🛠 **天天用**：Python · PyTorch · Hadoop/MapReduce · FastAPI · Git
-- 🚀 **已跑通**：MuJoCo 控制线（PD → LQR → 摆起 → 2R 臂 → 里程计 → 路标融合）· 三维感知线（单目深度计量标定 → 内参标定 → 点云 ICP → MobileSAM 接地）· 学习/RL 线（BC → PPO → PBRS → DAPG → SAC → DAgger → 多峰块策略）· SLAM 与导航线（占据栅格 + A* + 纯追踪 → 位姿图优化 → 回环闭合 → 鲁棒后端 → 图定位 → 闭环导航，官方 Nav2/AMCL 对照已完成），56 课 / 905 项测试全绿
+- 🔬 **正在做的实验**：MuJoCo 控制与三维感知、SLAM/导航、学习策略，以及 SO-101 三维接触抓取。每次用相同条件比较方法，保存成功与失败；实验报告说明哪些能力有效、在什么条件下有效。
+- 🚗 **导航进展**：把真实车身、制动距离、指令延迟、雷达与深度观测放在一起检验，近期完成限定街区场景的通行验证；位姿误差、遮挡与真实异步控制仍待补强。
+- 🦾 **机械臂进展**：研究夹爪开口中心、运动路径与两指接触。已有实际物理抓取对照和同步相机窗口，仍有抓不牢、抬起后掉落的失败；相机尚未参与控制。
 - 🦖 **硬件线**：MicroDinosaur 双足恐龙机器人 —— Blender CAD v07（19× S288 驱动 · 672 项实体质量台账）+ MuJoCo/PPO 训练与头部 IMU 姿态补偿，处于「设计与仿真 → 实物搭建」过渡
-- 🎯 **下一步**：Gazebo 世界 · MicroDinosaur 装配与实机验证 · 多传感器导航路线图（LiDAR＋RGB-D，见 lab docs）· SO-101 抓取接入视觉闭环
+- 🎯 **下一步**：先补稳定接触抓取，再接 RGB-D 视觉闭环；导航继续验证定位误差、遮挡、实际计算延迟与到点/恢复组合。MicroDinosaur 的装配与实机验证按独立项目推进。
 
 > 🪧 主线：`空间智能 → 计算机视觉 → 机器人感知与建图 → 机器人学习`
 
@@ -68,7 +68,9 @@
 
 **Summary (EN)**
 
-I'm a GIS graduate building an **embodied-intelligence bridge** from spatial computing: remote-sensing deep learning → 3D depth & robot perception → control, mapping, robot learning. Every step lives as a runnable, verifiable loop in the projects below — **56 lessons / 905 automated tests**, each one an honest experiment report (failures included): from MuJoCo control (PD → LQR → swing-up → planar arm → IK → odometry → landmark fusion) and metric monocular-depth calibration with point-cloud ICP, to a navigation stack in progress (occupancy grid + A* + pure pursuit → pose-graph optimization → loop closure → robust back-end → closed-loop navigation, benchmarked against official Nav2/AMCL), plus a distributed Hadoop/MapReduce mobility platform over ~43M NYC taxi trips with 3D visualization and weather-aware demand forecasting — and now a physical build: **MicroDinosaur**, a small bipedal robot with Blender CAD, MuJoCo/PPO training and IMU head control.
+I'm a GIS graduate moving from **spatial computing and remote-sensing deep learning to robotics**. My lab covers control, 3D perception, mapping, navigation and robot learning, with current work on body-aware navigation and SO-101 physical grasping in MuJoCo. Each experiment compares methods under matched conditions and records both improvements and failures.
+
+Recent navigation validation passed within fixed static layouts and exact-pose assumptions; grasping improved but still fails on some object poses. RGB cameras currently provide replay views, not visual feedback for control. Alongside the lab, I work on Hadoop/MapReduce mobility analytics and the MicroDinosaur robot's design and simulation, with hardware validation as a separate step.
 
 Current line: `spatial intelligence → computer vision → robot perception & mapping → robot learning`
 
@@ -136,7 +138,7 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 
 ## 🚀 Projects / 项目
 
-- 🧠 **[embodied-ai-lab](https://github.com/eugenewang5425/embodied-ai-lab)** — 具身智能学习与本地仿真：56 课 / 905 项测试，MuJoCo 控制 → 三维感知 → 学习策略 → SLAM 与导航栈（官方 Nav2/AMCL 对照）→ SO-101 抓取 / Embodied-AI learning lab: MuJoCo control & perception, metric monocular depth, pose-graph SLAM, Nav2/AMCL comparison
+- 🧠 **[embodied-ai-lab](https://github.com/eugenewang5425/embodied-ai-lab)** — 具身智能学习与本地仿真：控制 → 三维感知 → 建图导航 → 机器人学习 → SO-101 接触抓取；讲义、失败记录与可复用三维窗口 / Robotics learning lab with paired experiments, honest reports and reusable 3D replay windows
 - 🦖 **[MicroDinosaur](https://github.com/eugenewang5425/MicroDinosaur)** — 小型双足恐龙机器人：Blender CAD v07（19× S288 驱动 · 672 项质量台账）+ MuJoCo/PPO 训练与头部 IMU 姿态补偿，设计与仿真 → 实物搭建过渡阶段 / Small bipedal robot: CAD + MuJoCo/PPO training + IMU head control
 - 🛰️ **[mssact-loveda](https://github.com/eugenewang5425/mssact-loveda)** — 高分辨率遥感土地覆盖语义分割：MSSACT-Net 与 5 个基线对照、模块消融、LoveDA 基准 + GF-1 全图滑窗制图管线（高斯融合 + 行政区裁剪）/ Remote-sensing land-cover segmentation: LoveDA benchmark + GF-1 sliding-window mapping
 - 🚕 **[geoflow](https://github.com/eugenewang5425/geoflow)** — Hadoop 分布式城市出行时空分析：HDFS/YARN/MapReduce Streaming + 3D 可视化 + 天气感知需求预测 / Distributed urban mobility analytics: Hadoop MapReduce + 3D viz + weather-aware forecasting
@@ -145,6 +147,15 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 - 🎓 **[ielts-corpus-lab](https://github.com/eugenewang5425/ielts-corpus-lab)** — 可审计的 IELTS 四科语料统计与话题探索 / Auditable IELTS corpus stats & topic explorer
 
 **开源参与 / Contributing**: [clawd-on-desk](https://github.com/eugenewang5425/clawd-on-desk)（fork · 桌面像素宠物，实时响应 AI 编码代理 — 负责可靠性审计 / reliability audit）
+
+### 🔎 最近的实验 / Recent experiments
+
+更新于 2026-10-01。数字来自仿真存档；详细条件和失败案例见讲义。 / Updated 2026-10-01; simulation results with scope and failures documented in the reports.
+
+| 方向 / Work | 结果 / Result | 适用条件与下一步 / Scope & next step |
+| --- | --- | --- |
+| [街区导航 · 第 69 课](https://github.com/eugenewang5425/embodied-ai-lab/blob/main/docs/69-physical-height-navigation.md) | 60/60 新回合到达停稳、零接触；3 个无路入口正确拒绝 / 60/60 arrivals and stops; 3 impossible entrances rejected | 静态布局、低速、精确位姿；仍需定位误差与真实异步验证 / Static layouts, low speed, exact pose; async control still unverified |
+| [SO-101 抓取 · 第 73 课](https://github.com/eugenewang5425/embodied-ai-lab/blob/main/docs/73-so101-approach-geometry.md) | 同 27 对新条件：17/27 → 21/27；救回 6 例、退步 2 例 / Paired comparison: 17/27 → 21/27; 6 rescued, 2 regressed | 已知物体初始位置，仍有 6 次失败；先补接触反馈，再进入视觉抓取 / Known initial object pose; stabilize contact before visual control |
 
 ---
 
