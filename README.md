@@ -15,7 +15,11 @@
   </picture>
 </p>
 
-<!-- Project badges describe areas of work; experiment results live in the lab reports. -->
+<!-- Project badges describe areas of work; experiment results live in the lab reports.
+
+     merged commits = 17 unique commits carried by 8 merged PRs (recounted 2026-10-02):
+     11 in clawd-on-desk upstream (#938, #987, #998, #1088), 6 in own repos.
+     Static badge — recount when another PR merges. -->
 
 <br />
 
@@ -29,6 +33,9 @@
   </a>
   <a href="https://github.com/eugenewang5425/MicroDinosaur">
     <img src="https://img.shields.io/badge/MicroDinosaur-CAD%20%2B%20MuJoCo%2FPPO-6E4A2E?style=for-the-badge" alt="MicroDinosaur: bipedal robot build (CAD + MuJoCo/PPO)" />
+  </a>
+  <a href="https://github.com/search?q=author%3Aeugenewang5425+type%3Apr+is%3Amerged&type=issues">
+    <img src="https://img.shields.io/badge/merged%20commits-17-8250df?style=for-the-badge" alt="17 commits merged via 8 merged pull requests" />
   </a>
 </p>
 
