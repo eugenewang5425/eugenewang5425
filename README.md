@@ -65,7 +65,7 @@
 - 🛠 **天天用**：Python · PyTorch · Hadoop/MapReduce · FastAPI · Git
 - 🔬 **正在做的实验**：MuJoCo 控制与三维感知、SLAM/导航、学习策略，以及 SO-101 三维接触抓取。每次用相同条件比较方法，保存成功与失败；实验报告说明哪些能力有效、在什么条件下有效。
 - 🚗 **导航进展**：把真实车身、制动距离、指令延迟、雷达与深度观测放在一起检验，近期完成限定街区场景的通行验证；位姿误差、遮挡与真实异步控制仍待补强。
-- 🦾 **机械臂进展**：研究夹爪开口中心、运动路径与两指接触。已有实际物理抓取对照和同步相机窗口，仍有抓不牢、抬起后掉落的失败；相机尚未参与控制。
+- 🦾 **机械臂进展**：研究夹爪开口中心、运动路径与两指接触。第三轮指面校准后同 27 新条件 **24/27**（救回 3 例、无退步），仍 3 例掉落；相机尚未参与控制，先补动态接触再进入视觉。
 - 🦖 **硬件线**：MicroDinosaur 双足恐龙机器人 —— Blender CAD v07（19× S288 驱动 · 672 项实体质量台账）+ MuJoCo/PPO 训练与头部 IMU 姿态补偿，处于「设计与仿真 → 实物搭建」过渡
 - 🎯 **下一步**：先补稳定接触抓取，再接 RGB-D 视觉闭环；导航继续验证定位误差、遮挡、实际计算延迟与到点/恢复组合。MicroDinosaur 的装配与实机验证按独立项目推进。
 
@@ -157,12 +157,12 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 
 ### 🔎 最近的实验 / Recent experiments
 
-更新于 2026-10-01。数字来自仿真存档；详细条件和失败案例见讲义。 / Updated 2026-10-01; simulation results with scope and failures documented in the reports.
+更新于 2026-10-05。数字来自仿真存档；详细条件和失败案例见讲义。 / Updated 2026-10-05; simulation results with scope and failures documented in the reports.
 
 | 方向 / Work | 结果 / Result | 适用条件与下一步 / Scope & next step |
 | --- | --- | --- |
 | [街区导航 · 第 69 课](https://github.com/eugenewang5425/embodied-ai-lab/blob/main/docs/69-physical-height-navigation.md) | 60/60 新回合到达停稳、零接触；3 个无路入口正确拒绝 / 60/60 arrivals and stops; 3 impossible entrances rejected | 静态布局、低速、精确位姿；仍需定位误差与真实异步验证 / Static layouts, low speed, exact pose; async control still unverified |
-| [SO-101 抓取 · 第 73 课](https://github.com/eugenewang5425/embodied-ai-lab/blob/main/docs/73-so101-approach-geometry.md) | 同 27 对新条件：17/27 → 21/27；救回 6 例、退步 2 例 / Paired comparison: 17/27 → 21/27; 6 rescued, 2 regressed | 已知物体初始位置，仍有 6 次失败；先补接触反馈，再进入视觉抓取 / Known initial object pose; stabilize contact before visual control |
+| [SO-101 抓取 · 第 73 课](https://github.com/eugenewang5425/embodied-ai-lab/blob/main/docs/73-so101-contact-feedback.md) | 三轮同 27 新条件：17/27 → 21/27 → **24/27**；第三轮救回 3 例、无退步 / Three paired rounds: 17/27 → 21/27 → 24/27; 3 rescued, none regressed | 已知物体初始位置，仍 3 例掉落；先补动态接触，再进入视觉抓取 / Known initial object pose; 3 drops remain; dynamic contact next, then visual control |
 
 ---
 
