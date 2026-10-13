@@ -3,7 +3,9 @@
   GitHub Profile README · @eugenewang5425
   · 中英双语 bilingual
   · 浅/深色 banner · proof 徽章(含访客计数) · 分组技术栈
-  · 右浮动统计卡(自建实例已启用) · 动态徽章 · 可折叠中文
+  · 右浮动统计卡(自建实例已启用) · 动态徽章
+  · 只展示机器人主线仓库；ielts-corpus-lab / flowboard /
+    web-design-principles 保留在各自仓库，不上主页；贡献蛇形已撤下
   · 项目进展与 embodied-ai-lab 实验记录保持一致；主页不展示测试数量
   ============================================================
 -->
@@ -54,36 +56,11 @@
 
 ### `@eugenewang5425` · **GIS → Robotics**
 
-> 🌍 **Mapping the world, then teaching machines to move in it.**
-> 从「看懂地图」走向「看懂世界、还能动」。GIS & remote-sensing deep learning, now building toward **embodied intelligence**.
+> 🌍 **Mapping the world, then teaching machines to move in it.** · 从「看懂地图」走到「看懂世界、还能动」。
 
-<details>
-<summary>🇨🇳 中文自我介绍 · About me (CN)</summary>
-
-- 🎓 **GIS 出身**：高分辨率遥感影像土地覆盖分类（MSSACT-Net）+ 空间分析
-- 🧠 **AI 主线**：CNN / Transformer / 语义分割 → 机器人感知与具身智能
-- 🛠 **天天用**：Python · PyTorch · Hadoop/MapReduce · FastAPI · Git
-- 🔬 **正在做的实验**：MuJoCo 控制与三维感知、SLAM/导航、学习策略，以及 SO-101 三维接触抓取。每次用相同条件比较方法，保存成功与失败；实验报告说明哪些能力有效、在什么条件下有效。
-- 🚗 **导航进展**：把真实车身、制动距离、指令延迟、雷达与深度观测放在一起检验，近期完成限定街区场景的通行验证；位姿误差、遮挡与真实异步控制仍待补强。
-- 🦾 **机械臂进展**：研究夹爪开口中心、运动路径与两指接触。第三轮指面校准后同 27 新条件 **24/27**（救回 3 例、无退步），仍 3 例掉落；相机尚未参与控制，先补动态接触再进入视觉。
-- 🦖 **硬件线**：MicroDinosaur 双足恐龙机器人 —— Blender CAD v07（19× S288 驱动 · 672 项实体质量台账）+ MuJoCo/PPO 训练与头部 IMU 姿态补偿，处于「设计与仿真 → 实物搭建」过渡
-- 🎯 **下一步**：先补稳定接触抓取，再接 RGB-D 视觉闭环；导航继续验证定位误差、遮挡、实际计算延迟与到点/恢复组合。MicroDinosaur 的装配与实机验证按独立项目推进。
+GIS 与遥感深度学习出身，现在做机器人与具身智能：在 MuJoCo 里搭可复现的实验线（导航、SLAM、SO-101 物理抓取），并推进 MicroDinosaur 双足机器人的设计与实物搭建——成功与失败同等记录。 / I moved from GIS & remote-sensing deep learning to robotics: a reproducible MuJoCo experiment line (navigation, SLAM, SO-101 physical grasping) and the MicroDinosaur bipedal robot, with successes and failures recorded alike.
 
 > 🪧 主线：`空间智能 → 计算机视觉 → 机器人感知与建图 → 机器人学习`
-
-</details>
-
-**Summary (EN)**
-
-I'm a GIS graduate moving from **spatial computing and remote-sensing deep learning to robotics**. My lab covers control, 3D perception, mapping, navigation and robot learning, with current work on body-aware navigation and SO-101 physical grasping in MuJoCo. Each experiment compares methods under matched conditions and records both improvements and failures.
-
-Recent navigation validation passed within fixed static layouts and exact-pose assumptions; grasping improved but still fails on some object poses. RGB cameras currently provide replay views, not visual feedback for control. Alongside the lab, I work on Hadoop/MapReduce mobility analytics and the MicroDinosaur robot's design and simulation, with hardware validation as a separate step.
-
-Current line: `spatial intelligence → computer vision → robot perception & mapping → robot learning`
-
-- 🔬 **Research**: remote-sensing deep learning, land-cover classification
-- 💻 **Stack**: Python · PyTorch · Hadoop/MapReduce · FastAPI · MuJoCo · Git
-- 🎯 **Direction**: 3D vision · SLAM · robot perception · embodied AI
 
 ---
 
@@ -149,9 +126,6 @@ Current line: `spatial intelligence → computer vision → robot perception & m
 - 🦖 **[MicroDinosaur](https://github.com/eugenewang5425/MicroDinosaur)** — 小型双足恐龙机器人：Blender CAD v07（19× S288 驱动 · 672 项质量台账）+ MuJoCo/PPO 训练与头部 IMU 姿态补偿，设计与仿真 → 实物搭建过渡阶段 / Small bipedal robot: CAD + MuJoCo/PPO training + IMU head control
 - 🛰️ **[mssact-loveda](https://github.com/eugenewang5425/mssact-loveda)** — 高分辨率遥感土地覆盖语义分割：MSSACT-Net 与 5 个基线对照、模块消融、LoveDA 基准 + GF-1 全图滑窗制图管线（高斯融合 + 行政区裁剪）/ Remote-sensing land-cover segmentation: LoveDA benchmark + GF-1 sliding-window mapping
 - 🚕 **[geoflow](https://github.com/eugenewang5425/geoflow)** — Hadoop 分布式城市出行时空分析：HDFS/YARN/MapReduce Streaming + 3D 可视化 + 天气感知需求预测 / Distributed urban mobility analytics: Hadoop MapReduce + 3D viz + weather-aware forecasting
-- 🎨 **[web-design-principles](https://github.com/eugenewang5425/web-design-principles)** — 网页设计原则汇总 + 真实 bug 案例库（可按症状/原则/环境[在线检索](https://eugenewang5425.github.io/web-design-principles/)）/ Curated web design principles with a searchable case bank
-- 🤖 **[flowboard](https://github.com/eugenewang5425/flowboard)** — Windows 本地多智能体工作流看板（Codex × Claude Code）/ Windows-first local multi-agent workflow board
-- 🎓 **[ielts-corpus-lab](https://github.com/eugenewang5425/ielts-corpus-lab)** — 可审计的 IELTS 四科语料统计与话题探索 / Auditable IELTS corpus stats & topic explorer
 
 **开源参与 / Contributing**: [clawd-on-desk](https://github.com/eugenewang5425/clawd-on-desk)（fork · 桌面像素宠物，实时响应 AI 编码代理 — 负责可靠性审计 / reliability audit）
 
@@ -172,20 +146,6 @@ Current line: `spatial intelligence → computer vision → robot perception & m
   <img height="180em" src="https://streak-stats.demolab.com?user=eugenewang5425&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   <img height="180em" src="https://github-readme-stats-beta-livid-95.vercel.app/api/top-langs/?username=eugenewang5425&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&card_width=380" alt="Top Languages" />
 </p>
-
----
-
-## 🐍 Contribution Snake / 贡献蛇形
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
 
 ---
 
