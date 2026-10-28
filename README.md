@@ -31,22 +31,12 @@ GIS and remote-sensing background. Learning robot perception and control, and bu
 
 ## 项目 / Projects
 
-- **[embodied-ai-lab](https://github.com/eugenewang5425/embodied-ai-lab)** — 机器人导航和抓取的仿真实验与学习记录。 / Robot simulations
+- **[embodied-ai-lab](https://github.com/eugenewang5425/embodied-ai-lab)** — 机器人导航和抓取的仿真实验与学习记录。 / Robot simulations · [仿真记录 / Simulation notes](https://github.com/eugenewang5425/embodied-ai-lab/blob/main/docs/73-so101-contact-feedback.md)
 - **[MicroDinosaur](https://github.com/eugenewang5425/MicroDinosaur)** — 小型双足恐龙机器人，正在设计和搭建。 / Bipedal robot build
 - **[mssact-loveda](https://github.com/eugenewang5425/mssact-loveda)** — 用遥感影像识别土地覆盖。 / Land-cover mapping
 - **[geoflow](https://github.com/eugenewang5425/geoflow)** — 用出租车轨迹分析城市出行。 / Urban mobility
 
 开源参与：[clawd-on-desk](https://github.com/eugenewang5425/clawd-on-desk) — 为桌面宠物项目修复问题。 / Desktop pet fixes
-
-## 演示 / Demos
-
-<a href="https://github.com/eugenewang5425/embodied-ai-lab/blob/main/docs/73-so101-contact-feedback.md"><img width="760" src="https://raw.githubusercontent.com/eugenewang5425/embodied-ai-lab/main/docs/img/lesson73-round3-window-lift.png" alt="机械臂抓取仿真 / Grasping simulation" /></a>
-
-机械臂抓取仿真 / Grasping simulation
-
-以上为仿真演示。 / Simulated demos.
-
-[抓取记录](https://github.com/eugenewang5425/embodied-ai-lab/blob/main/docs/73-so101-contact-feedback.md) · [导航记录](https://github.com/eugenewang5425/embodied-ai-lab/blob/main/docs/69-physical-height-navigation.md) · [3 分钟巡检仿真](https://www.bilibili.com/video/BV1Mtp46EEw9/)
 
 <details>
 <summary><b>工具与课程 / Tools & coursework</b></summary>
