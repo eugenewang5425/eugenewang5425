@@ -1,6 +1,6 @@
 # CRT Banner 源码
 
-`make_banner.py` 生成个人主页上的绿色 CRT 终端动画，包含像素头像、打字、扫描线和开关机效果。主页使用仓库根目录的 `banner_dark.gif` 与 `banner_light.gif`，两份现有动图保持原样。
+`make_banner.py` 生成绿色 CRT 终端动画，包含像素头像、打字、扫描线和开关机效果。动画展示及源码入口已从个人主页移除；此目录保留生成源码与使用方法。仓库根目录的 `banner_dark.gif` 与 `banner_light.gif` 是历史导出文件。
 
 ## 运行
 
@@ -12,7 +12,7 @@ python banner/make_banner.py --theme dark
 python banner/make_banner.py --theme light
 ```
 
-生成结果在 `banner/out/`。确认效果后，可将对应文件复制到仓库根目录用于主页。
+生成结果在 `banner/out/`，仅供单独预览。
 
 默认从 GitHub 下载配置中用户的头像；也可使用本地图片：
 

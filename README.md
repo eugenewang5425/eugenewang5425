@@ -2,22 +2,13 @@
   ============================================================
   GitHub Profile README · @eugenewang5425
   · 中英双语 bilingual
-  · 浅/深色 banner · proof 徽章(含访客计数) · 分组技术栈
+  · 访客计数与统计卡；工具与课程默认折叠
   · 统计卡及 Rank 保留；工具与课程默认折叠
   · 只展示机器人主线仓库；ielts-corpus-lab / flowboard /
     web-design-principles 保留在各自仓库，不上主页；贡献蛇形已撤下
   · 项目进展与 embodied-ai-lab 实验记录保持一致；主页不展示测试数量
   ============================================================
 -->
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/main/banner_dark.gif" />
-    <img width="100%" alt="Retro CRT Terminal banner (animated)" src="https://raw.githubusercontent.com/eugenewang5425/eugenewang5425/main/banner_light.gif" />
-  </picture>
-</p>
-
-<p align="center"><a href="banner/README.md">CRT 源码 / Source</a></p>
 
 <!-- Project badges describe areas of work; experiment results live in the lab reports.
 
